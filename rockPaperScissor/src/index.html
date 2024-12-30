@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Paper Rock Scissor Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <script src="js/config.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/events.js" defer></script>
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <div class="mainLayout">
+            <h1 class="mainTitle">Rock, Paper, Scissor</h1>
+            <h2 id="finalResult" class="roundTitle">Please, make a choice</h2>
+            <h2 id="roundNumber" class="roundTitle">Round <span>1</span></h2>
+            <ul class="sideList">
+                <li id="userScore" class="scoreTitle">Your score: <span>0</span></li>
+                <li id="cpScore" class="scoreTitle">The computer score: <span>0</span></li>
+            </ul>
+            <div class="gameMainLayout">
+                <div class="gameTitle">Your choice</div>
+                <div class="gameButtonLayout">
+                    <div id="rockUser" class="gameButton rockButton" gamerole="rock">
+                        <img class="icon" src="icons/rock.png" alt="Rock Icon">
+                    </div>
+                    <div id="paperUser" class="gameButton paperButton" gamerole="paper">
+                        <img class="icon" src="icons/paper.png" alt="Paper Icon">
+                    </div>
+                    <div id="scissorUser" class="gameButton scissorButton" gamerole="scissor">
+                        <img class="icon" src="icons/scissor.png" alt="Scissor Icon">
+                    </div>
+                </div>
+                <div class="gameTitle">The computer choice</div>
+                <div class="gameButtonLayout">
+                    <div id="computerRock" class="computerButton" gamerole="rock">
+                        <img class="icon" src="icons/rock.png" alt="Rock Icon">
+                    </div>
+                    <div id="computerPaper" class="computerButton" gamerole="paper">
+                        <img class="icon" src="icons/paper.png" alt="Paper Icon">
+                    </div>
+                    <div id="computerScissor" class="computerButton" gamerole="scissor">
+                        <img class="icon" src="icons/scissor.png" alt="Scissor Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="gameButtonLayout">
+                <div id="restart" class="metaButton">Restart</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © 2024 Soutadé Julien. All rights reserved.
+    </div>
+</body>
+
+</html>

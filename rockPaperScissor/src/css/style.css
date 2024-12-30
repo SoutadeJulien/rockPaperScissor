@@ -1,0 +1,220 @@
+.mainWrapper {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(to right, rgb(47, 82, 196), rgba(19, 204, 211, 0.719));
+}
+
+.mainlayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.metaButton{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    text-align: center;
+    border: 0.1em solid azure;
+    border-radius: 1em;
+    padding: 0.5em;
+
+}
+
+.metaButton:hover {
+    background-color: rgba(73, 73, 230, 0.30); 
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mainTitle {
+    font-family: "Spicy Rice", system-ui;
+    font-size: 3em;
+    font-weight: 50;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    top: 0;
+}
+
+.roundTitle {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.sideList {
+    font-family: system-ui;
+    font-size: 1.5em;
+    list-style-type: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.scoreTitle {
+    font-family: "Spicy Rice", system-ui;
+    font-size: 1.5em;
+    color: white;
+}
+
+.gameMainLayout {
+    text-align: center;
+    border: 0.2em solid azure;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2em;
+}
+
+.gameTitle {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: rgb(252, 252, 252);
+}
+
+.gameButtonLayout{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.startNextRoundLayout{
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gameButton{
+    color: rgb(255, 255, 255);
+    border: 0.1em solid azure;
+    border-radius: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.gameButton:hover {
+    background-color: rgba(73, 73, 230, 0.30);
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+.gameButton.clicked  {
+    background-color: rgb(22, 98, 128);
+}
+
+.computerChoiceTitle {
+    color: rgb(158, 0, 0);
+}
+
+.computerButton {
+    border-radius: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.startLayout {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.checked {
+    background-color: rgb(43, 122, 226);
+}
+
+.icon {
+    width: 3em;
+    height: em;
+}
+
+.icon:hover {
+    perspective: 1000px; /* This creates a 3D space for the flip effect */
+}
+
+.winLooseLayout {
+    text-align: center;
+    justify-content: center;
+}
+
+.winLooseImg {
+    width: 10em;
+}
+
+.footer {
+    background: linear-gradient(to right, rgb(107, 130, 206), rgba(19, 204, 211, 0.719));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 28em;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+@media (max-width: 600px) and (orientation: landscape) {
+    .mainWrapper {
+        width: 60%
+    }
+}
+
+@media (max-width: 601) and (orientation: landscape) {
+    .mainWrapper {
+        width: 60%
+    }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+    .mainWrapper {
+        width: 60%
+    }
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+    .mainWrapper {
+        width: 60%
+    }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+    .mainWrapper {
+        width: 100%
+    }
+    
+}
+
+@media (max-width: 601) and (orientation: portrait) {
+    .mainWrapper {
+        width: 100%
+    }
+    
+}
+
+@media (max-width: 992px) and (orientation: portrait) {
+    .mainWrapper {
+        width: 60%
+    }
+    
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+    .mainWrapper {
+        width: 60%
+    }
+    
+}
