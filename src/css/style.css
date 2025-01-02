@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(47, 82, 196), rgba(19, 204, 211, 0.719));
+    background: linear-gradient(to right, rgb(77, 117, 250), rgba(19, 204, 211, 0.719));
 }
 
 .mainlayout {
@@ -181,19 +181,22 @@ body {
 
 @media (max-width: 992px) and (orientation: landscape) {
     .mainWrapper {
-        width: 60%
+        width: 100%
     }
 }
 
 @media (max-width: 1200px) and (orientation: landscape) {
     .mainWrapper {
-        width: 60%
+        width: 100%
     }
 }
 
 @media (max-width: 600px) and (orientation: portrait) {
     .mainWrapper {
         width: 100%
+    }
+    .icon {
+        width: 2em;
     }
     
 }
@@ -202,19 +205,25 @@ body {
     .mainWrapper {
         width: 100%
     }
+    .icon {
+        width: 2em;
+    }
     
 }
 
 @media (max-width: 992px) and (orientation: portrait) {
     .mainWrapper {
-        width: 60%
+        width: 100%
+    }
+    .icon {
+        width: 2em;
     }
     
 }
 
 @media (max-width: 1200px) and (orientation: portrait) {
     .mainWrapper {
-        width: 60%
+        width: 100%
     }
     
 }
